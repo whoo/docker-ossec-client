@@ -2,6 +2,7 @@
 
 
 /var/ossec/bin/agent-auth -m OssecServ
+sleep 10
 /etc/init.d/ossec start
 
 
